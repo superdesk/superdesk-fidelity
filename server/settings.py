@@ -44,11 +44,14 @@ CELERY_BEAT_SCHEDULE.update({
 INSTALLED_APPS.extend([
     'apps.languages',
     'superdesk.auth.saml',
+    'superdesk.sams',
     'fidelity',
     'fidelity.compliance',
     'fidelity.identifier_generator',
     'fidelity.macros',
 ])
+
+MEDIA_STORAGE_PROVIDER = 'superdesk.sams.media_storage.SAMSMediaStorage'
 
 RENDITIONS = {
     'picture': {
