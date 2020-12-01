@@ -5,5 +5,5 @@ python3-saml==1.2.6
 lxml==3.8.0
 feedgen==0.9.0
 
-git+git://github.com/superdesk/superdesk-core.git@sams#egg=Superdesk-Core
-git+git://github.com/superdesk/sams.git@develop#egg=sams_client&subdirectory=src/clients/python/
+-e git+git://github.com/superdesk/superdesk-core.git@sams#egg=superdesk-core
+-e git+git://github.com/superdesk/sams.git@develop#egg=sams_client&subdirectory=src/clients/python/
